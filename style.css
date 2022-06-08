@@ -2,6 +2,8 @@
 
 
 * {
+    padding:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -31,6 +33,8 @@ body {
 .whole {
     max-width: 1000px;
     display: flex;
+    border-radius: 1%;
+    overflow: hidden;
 }
 
 
@@ -86,17 +90,18 @@ div.Luxury a {
     color: var(--very-dark-cyan);
 }
 
-@media screen and (max-width:600px) {
-    .main {
-        flex-direction: column;
-    }
-
 @media screen and (max-width:860px) {
-    .main {
-        display: none;
+    .whole {
+        flex-direction: column;
+        margin: 50px auto;
     }
-}
 
+@media screen and (min-width:860px) {
+    .whole {
+        display: block;
+    }
+    
+}
 
 /* .attribution {    font-size: 11px; 
     text-align: center; 
@@ -104,4 +109,4 @@ div.Luxury a {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}  */
+}   */
