@@ -39,4 +39,4 @@ Users should be able to:
 
 ### What I learned
 
-Another simple challenge. To get the words to fit just like the design doc, I used overflow-wrap which was a first for me. 
+Another simple challenge. To get the words to fit just like the design doc, I used overflow-wrap which was a first for me. Also has two media queries for smaller screens and moblie. 
